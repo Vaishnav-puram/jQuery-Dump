@@ -1,0 +1,14 @@
+$("document").ready(()=>{
+    $("#btn1").click(()=>{
+        $("#image").fadeIn("slow")
+    })
+    $("#btn2").click(()=>{
+        $("#image").fadeOut("slow")
+    })
+    $("#btn3").click(()=>{
+        $("#image").fadeToggle(3000)
+    })
+    $("#btn4").click(()=>{
+        $("#image").fadeTo("slow",0.15)
+    })
+})

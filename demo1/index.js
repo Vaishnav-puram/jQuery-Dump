@@ -1,0 +1,2 @@
+$('.first').hide();
+$('#second').hide();
